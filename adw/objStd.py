@@ -14,5 +14,8 @@ class Student:
             mark='B'
         print('Name:',name,'\nGrade:',mark)
         
-obj=Student("Arun",85)
-obj.Grade('Arun',85)
+x=input("Enter name:")
+y=int(input("Enter mark:"))
+        
+obj=Student(x,y)
+obj.Grade(x,y)
